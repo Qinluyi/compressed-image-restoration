@@ -67,6 +67,8 @@
 
 2.Dmcnn: Dual-domain multi-scale convolutional neural network for compression artifacts removal.2018（无源码）
 
+笔记：https://github.com/Qinluyi/compressed-image-restoration/blob/main/jpeg_paper/DMCNN.pptx
+
 3.Implicit dual-domain convolutional network for robust color image compression artifact reduction.（无源码）
 
 4.Zhangyang Wang et al. “D3: Deep dual-domain based fast restoration of jpegcompressed images”. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, pp. 2764–2772.（无源码）
