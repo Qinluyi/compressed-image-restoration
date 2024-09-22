@@ -15,7 +15,7 @@
 
 2.Seungjoon Yang et al. “Blocking artifact free inverse discrete cosine transform”. In: Proceedings 2000 International Conference on Image Processing (Cat. No. 00CH37101). Vol. 3. IEEE. 2000, pp. 869–872.
 
-
+3.Xueyang Fu et al. “JPEG Artifacts Reduction via Deep Convolutional Sparse Coding”. In: Proceedings of the IEEE International Conference on Computer Vision. 2019, pp. 2501–2510.
 
 ## 2. 基于Sparse coding的方法
 
@@ -43,19 +43,27 @@
 
 8.Xi Wang, Xueyang Fu, Yurui Zhu, and Zheng-Jun Zha. Jpeg artifacts removal via contrastive representation learning. In Proc. Eur. Conf. Comput. Vis., Tel Aviv, Israel, pages 615–631. Springer, 2022.
 
-9.Leonardo Galteri et al. “Deep universal generative adversarial compression artifact removal”. In: IEEE Transactions on Multimedia (2019).（**基于GAN**）
+
 
 **预测质量因素**
 
 1.Jiaxi Jiang, Kai Zhang, and Radu Timofte. Towards flexible blind jpeg artifacts removal. In Proc. IEEE Int. Conf. Comput. Vis., pages 4997–5006, 2021.
+
+2.Yoonsik Kim, Jae Woong Soh, Jaewoo Park, Byeongyong Ahn, Hyun-Seung Lee, Young-Su Moon, and Nam Ik Cho. A pseudo-blind convolutional neural network for the reduction of compression artifacts. IEEE Trans. Circuit Syst. Video Technol., 30(4):1121–1135, 2020.
+
+3.Yoonsik Kim, Jae Woong Soh, and Nam Ik Cho. “AGARNet: Adaptively Gated JPEG Compression Artifacts Removal Network for a Wide Range Quality Factor”. In: IEEE Access 8 (2020), pp. 20160–20170.
+
+4.Leonardo Galteri et al. “Deep universal generative adversarial compression artifact removal”. In: IEEE Transactions on Multimedia (2019).（**基于GAN**）
 
 **每个质量因素都训练**
 
 1.Pavel Svoboda, Michal Hradis, David Barina, and Pavel Zemcik. Compression artifacts removal using convolutional neural networks. arXiv preprint arXiv:1605.00366, 2016.
 2.Chao Dong, Yubin Deng, Chen Change Loy, and Xiaoou Tang. Compression artifacts reduction by a deep convolutional network. In Int. Conf. Comput. Vis., pages 576–584, 2015.
 3.Yulun Zhang, Kunpeng Li, Kai Li, Bineng Zhong, and Yun Fu. Residual non-local attention networks for image restoration. In Int. Conf. Learn. Represent., 2019.
-4.Yoonsik Kim, Jae Woong Soh, Jaewoo Park, Byeongyong Ahn, Hyun-Seung Lee, Young-Su Moon, and Nam Ik Cho. A pseudo-blind convolutional neural network for the reduction of compression artifacts. IEEE Trans. Circuit Syst. Video Technol., 30(4):1121–1135, 2020.
-5.Pengju Liu, Hongzhi Zhang, Kai Zhang, Liang Lin, and Wangmeng Zuo. Multi-level wavelet-cnn for image restoration. In Proc. IEEE Conf. Comput. Vis. Pattern Recog. Worksh., pages 886–88609, 2018.（**基于小波变换**）
+
+4.Pengju Liu, Hongzhi Zhang, Kai Zhang, Liang Lin, and Wangmeng Zuo. Multi-level wavelet-cnn for image restoration. In Proc. IEEE Conf. Comput. Vis. Pattern Recog. Worksh., pages 886–88609, 2018.（**基于小波变换**）
+
+**未知质量因素的恢复（blind restoration）**
 
 
 
@@ -72,4 +80,18 @@
 3.Implicit dual-domain convolutional network for robust color image compression artifact reduction.（无源码）
 
 4.Zhangyang Wang et al. “D3: Deep dual-domain based fast restoration of jpegcompressed images”. In: Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition. 2016, pp. 2764–2772.（无源码）
+
+5.Zhi Jin et al. “Dual-stream Multi-path Recursive Residual Network for JPEG Image Compression Artifacts Reduction”. In: IEEE Transactions on Circuits and Systems for Video Technology (2020).
+
+### DCT域的方法
+
+1.Max Ehrlich, Larry Davis, Ser-Nam Lim, and Abhinav Shrivastava. Quantization guided jpeg artifact correction. In Proc. Eur. Conf. Comput. Vis., Glasgow, UK, pages 293–309. Springer, 2020.（QGAC）
+
+# general image restoration的方法
+
+1.Yulun Zhang et al. “Residual dense network for image restoration”. In: IEEE Transactions on Pattern Analysis and Machine Intelligence (2020).
+
+
+
+
 
